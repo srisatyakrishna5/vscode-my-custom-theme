@@ -1,4 +1,4 @@
-# Developer Focus Theme
+# Deep Focus Theme
 
 **Clean. Professional. Eye-strain free.**
 

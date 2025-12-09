@@ -1,9 +1,9 @@
 {
-  "name": "developer-focus-theme",
-  "displayName": "Developer Focus",
+  "name": "deep-focus",
+  "displayName": "Deep Focus",
   "description": "Clean. Professional. Eye-strain free. A dark theme optimized for long coding sessions.",
   "version": "1.0.0",
-  "publisher": "dev-focus",
+  "publisher": "deep-focus",
   "engines": {
     "vscode": "^1.74.0"
   },
@@ -20,12 +20,17 @@
     "developer",
     "accessibility"
   ],
+  "repository": {
+    "url": "https://github.com/srisatyakrishna5/vscode-my-custom-theme",
+    "type": "git",
+    "directory": ""
+  },
   "contributes": {
     "themes": [
       {
-        "label": "Developer Focus Dark",
+        "label": "Deep Focus Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/developer-focus-dark.json"
+        "path": "./themes/deep-focus-dark.json"
       }
     ]
   },
@@ -35,6 +40,6 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Developer Focus Team"
+    "name": "Sri Satya Krishna Challa"
   }
 }
