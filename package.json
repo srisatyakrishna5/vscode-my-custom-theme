@@ -1,0 +1,40 @@
+{
+  "name": "developer-focus-theme",
+  "displayName": "Developer Focus",
+  "description": "Clean. Professional. Eye-strain free. A dark theme optimized for long coding sessions.",
+  "version": "1.0.0",
+  "publisher": "dev-focus",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "professional",
+    "minimal",
+    "eye-strain",
+    "productivity",
+    "clean",
+    "developer",
+    "accessibility"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Developer Focus Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/developer-focus-dark.json"
+      }
+    ]
+  },
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Developer Focus Team"
+  }
+}
