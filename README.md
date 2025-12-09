@@ -46,40 +46,50 @@ Syntax highlighting optimized for:
 
 ## 🚀 Installation
 
-### Option 1: Manual Installation (Recommended for Development)
+### Option 1: From VS Code Marketplace (Coming Soon)
 
-1. **Copy the theme files** to your VS Code extensions directory:
+Once published, you can install directly from VS Code:
+
+1. Open VS Code
+2. Go to Extensions (Ctrl+Shift+X)
+3. Search for "Deep Focus"
+4. Click Install
+5. Select "Deep Focus Dark" from the Color Theme picker
+
+### Option 2: Manual Installation (For Development)
+
+1. **Clone or download** this repository
+2. **Copy the theme files** to your VS Code extensions directory:
    ```bash
    # Windows
-   cp -r vscode-theme %USERPROFILE%\\.vscode\\extensions\\developer-focus-theme-1.0.0
+   cp -r . %USERPROFILE%\.vscode\extensions\deep-focus-1.0.0
    
    # macOS/Linux
-   cp -r vscode-theme ~/.vscode/extensions/developer-focus-theme-1.0.0
+   cp -r . ~/.vscode/extensions/deep-focus-1.0.0
    ```
 
-2. **Reload VS Code** by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and running "Developer: Reload Window"
+3. **Reload VS Code** by pressing `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and running "Developer: Reload Window"
 
-3. **Apply the theme**:
+4. **Apply the theme**:
    - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS)
    - Type "Preferences: Color Theme"
-   - Select "Developer Focus Dark"
+   - Select "Deep Focus Dark"
 
-### Option 2: Package and Install
+### Option 3: Package and Install (For Distribution)
 
 1. **Install vsce** (VS Code Extension Manager):
    ```bash
-   npm install -g vsce
+   npm install -g @vscode/vsce
    ```
 
 2. **Package the extension**:
    ```bash
-   cd vscode-theme
    vsce package
    ```
 
 3. **Install the packaged extension**:
    ```bash
-   code --install-extension developer-focus-theme-1.0.0.vsix
+   code --install-extension deep-focus-1.0.0.vsix
    ```
 
 ## 🎯 Theme Highlights
@@ -125,7 +135,7 @@ class DataProcessor:
 
 ## 🔧 Customization
 
-You can further customize the theme by modifying the `themes/developer-focus-dark.json` file. Here are some common customizations:
+You can further customize the theme by modifying the `themes/deep-focus-dark.json` file in your local installation. Here are some common customizations:
 
 ### Change the Accent Color
 ```json
@@ -153,12 +163,21 @@ You can further customize the theme by modifying the `themes/developer-focus-dar
 }
 ```
 
-## 🎨 Recommended Icon Theme
+## 🎨 Recommended Settings
 
-For the best experience, pair Developer Focus with a clean icon theme:
+For the best experience with Deep Focus:
 
+### Icon Theme
 - **Recommended**: Material Icon Theme by Philipp Kief
 - **Installation**: Search for "Material Icon Theme" in the Extensions marketplace
+
+### Font
+- **Recommended**: Fira Code, JetBrains Mono, or Cascadia Code
+- Enable font ligatures for better code readability:
+  ```json
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true
+  ```
 
 ## 🤝 Contributing
 
@@ -176,8 +195,14 @@ This theme is released under the MIT License. See the `LICENSE` file for details
 
 Inspired by the best practices in theme design and accessibility guidelines. Special thanks to the VS Code team for providing excellent theming capabilities.
 
+## 📊 Repository
+
+- **GitHub**: [srisatyakrishna5/vscode-my-custom-theme](https://github.com/srisatyakrishna5/vscode-my-custom-theme)
+- **Issues**: Report bugs or request features on GitHub
+- **Version**: 1.0.0
+
 ---
 
 **Happy Coding! 🚀**
 
-*Made with ❤️ for developers who care about their coding environment.*
+*Made with ❤️ by Sri Satya Krishna Challa for developers who care about their coding environment.*
