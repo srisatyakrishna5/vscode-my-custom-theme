@@ -1,52 +1,50 @@
-# Deep Focus Theme
+# Deep Focus Themes
 
-**Clean. Professional. Eye-strain free.**
+Soft, low-fatigue Visual Studio Code themes for developers who spend long hours in the editor.
 
-A dark Visual Studio Code theme designed specifically for professional software engineers and developers who spend long hours coding. This theme prioritizes readability, accessibility, and productivity while maintaining a modern, minimalistic aesthetic.
+This extension now ships with four color themes:
+- Deep Focus Dark
+- Deep Focus Light
+- Dev Theme Dark
+- Dev Theme Light
 
-## ✨ Features
+## Features
 
-### 🎯 **Optimized for Long Coding Sessions**
-- Carefully balanced contrast ratios to reduce eye strain
-- Dark mode base with warm, comfortable colors
-- Subtle highlighting that won't distract from your code
+### Optimized for Long Coding Sessions
+- Soft backgrounds instead of harsh black or pure white
+- Muted accents that reduce eye strain while preserving syntax clarity
+- Balanced contrast for code, sidebars, tabs, and terminal output
 
-### 🎨 **Professional Color Scheme**
-- **Keywords & Control Flow**: Purple (`#c678dd`)
-- **Strings**: Green (`#98c379`)
-- **Numbers**: Orange (`#d19a66`)
-- **Variables**: Warm beige (`#e8d5b7`)
-- **Functions**: Blue (`#61afef`)
-- **Classes & Types**: Yellow (`#e5c07b`)
-- **Comments**: Muted gray (`#5c6370`) with italic styling
+### Dev Theme Palette Direction
+- Keywords and flow: muted lavender
+- Functions and methods: calm blue
+- Strings: soft sage green
+- Numbers and constants: warm amber
+- Types and classes: muted gold
+- Comments: fog gray with restrained emphasis
 
-### 🔧 **Language Support**
-Syntax highlighting optimized for:
+### Language Support
+Syntax highlighting is tuned for:
 - JavaScript & TypeScript
 - Python
-- Java
-- C# & .NET
-- Go
 - HTML & CSS
 - Markdown
 - JSON & YAML
-- And many more...
+- Shell scripts
+- General-purpose syntax scopes used by many other languages
 
-### ♿ **Accessibility First**
+### Accessibility First
 - WCAG-compliant contrast ratios
-- Color-blind friendly color palette
 - Clear visual hierarchy
-- Distinct error and warning indicators
+- Distinct but non-harsh error and warning indicators
 
-### 🎛️ **UI Styling**
-- Clean, minimalistic sidebar and tabs
-- Professional blue accent color (`#007acc`)
-- Smooth hover effects and transitions
-- Consistent spacing and typography
+### UI Styling
+- Softer tab, sidebar, and status bar surfaces
+- More restrained highlights for selections and search matches
 
 ## 🚀 Installation
 
-### Option 1: From VS Code Marketplace (Coming Soon)
+### Option 1: From VS Code Marketplace
 
 Once published, you can install directly from VS Code:
 
@@ -73,7 +71,7 @@ Once published, you can install directly from VS Code:
 4. **Apply the theme**:
    - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS)
    - Type "Preferences: Color Theme"
-   - Select "Deep Focus Dark"
+  - Select "Dev Theme Dark" or "Dev Theme Light"
 
 ### Option 3: Package and Install (For Distribution)
 
@@ -92,9 +90,17 @@ Once published, you can install directly from VS Code:
    code --install-extension deep-focus-1.0.0.vsix
    ```
 
-## 🎯 Theme Highlights
+## Theme Highlights
 
-### Syntax Examples
+### Theme Families
+
+#### Deep Focus
+- Existing themes with the original Deep Focus visual direction
+
+#### Dev Theme
+- New softer dark and light variants
+- No pink accents or hot neon hues
+- Designed specifically to reduce visual fatigue in mixed-language projects
 
 **JavaScript/TypeScript:**
 ```javascript
@@ -127,15 +133,13 @@ class DataProcessor:
 
 ### UI Features
 
-- **Clean Tabs**: Active tabs are clearly distinguished with the blue accent
-- **Readable Sidebar**: Consistent spacing and muted colors for better focus
-- **Status Bar**: Professional blue background with clear text
-- **Error Highlighting**: Subtle but noticeable error and warning indicators
-- **Git Integration**: Color-coded git status indicators
+- Active tabs use a low-intensity accent rather than a high-contrast strip
+- Sidebars and panels stay legible without flattening the whole interface
+- Git states, diagnostics, and diff colors remain distinct without oversaturation
 
-## 🔧 Customization
+## Customization
 
-You can further customize the theme by modifying the `themes/deep-focus-dark.json` file in your local installation. Here are some common customizations:
+You can further customize the themes by modifying the files under `themes/`.
 
 ### Change the Accent Color
 ```json
@@ -163,13 +167,9 @@ You can further customize the theme by modifying the `themes/deep-focus-dark.jso
 }
 ```
 
-## 🎨 Recommended Settings
+## Recommended Settings
 
-For the best experience with Deep Focus:
-
-### Icon Theme
-- **Recommended**: Material Icon Theme by Philipp Kief
-- **Installation**: Search for "Material Icon Theme" in the Extensions marketplace
+For the best experience with Dev Theme:
 
 ### Font
 - **Recommended**: Fira Code, JetBrains Mono, or Cascadia Code
@@ -179,7 +179,7 @@ For the best experience with Deep Focus:
   "editor.fontLigatures": true
   ```
 
-## 🤝 Contributing
+## Contributing
 
 Found a bug or have a suggestion? Feel free to:
 
@@ -187,22 +187,16 @@ Found a bug or have a suggestion? Feel free to:
 2. Fork the repository and make your changes
 3. Submit a pull request with a clear description
 
-## 📄 License
+## License
 
 This theme is released under the MIT License. See the `LICENSE` file for details.
 
-## 🙏 Acknowledgments
-
-Inspired by the best practices in theme design and accessibility guidelines. Special thanks to the VS Code team for providing excellent theming capabilities.
-
-## 📊 Repository
+## Repository
 
 - **GitHub**: [srisatyakrishna5/vscode-my-custom-theme](https://github.com/srisatyakrishna5/vscode-my-custom-theme)
 - **Issues**: Report bugs or request features on GitHub
-- **Version**: 1.0.0
+- **Version**: 1.1.0
 
 ---
 
-**Happy Coding! 🚀**
-
-*Made with ❤️ by Sri Satya Krishna Challa for developers who care about their coding environment.*
+Built for developers who want a calmer editor without sacrificing syntax clarity.
